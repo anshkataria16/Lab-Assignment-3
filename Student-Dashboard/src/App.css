@@ -7,7 +7,6 @@ body {
   color: #eaeaea;
 }
 
-/* TITLE */
 h1 {
   text-align: center;
   font-size: 3rem;
@@ -19,8 +18,6 @@ h1 {
 h1 span {
   color: #00c6ff;
 }
-
-/* FORM */
 .form {
   display: flex;
   justify-content: center;
@@ -57,7 +54,7 @@ h1 span {
   transform: scale(1.05);
 }
 
-/* STATS */
+
 .stats-container {
   width: 80%;
   margin: 20px auto;
@@ -85,7 +82,7 @@ h1 span {
   color: #00c6ff;
 }
 
-/* TABLE */
+
 .table-container {
   width: 80%;
   margin: 30px auto;
@@ -102,7 +99,6 @@ h1 span {
   color: #aaa;
 }
 
-/* TABLE */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -120,23 +116,20 @@ td {
   border-top: 1px solid #222;
 }
 
-/* ROW */
+
 .row:hover {
   background: #1f1f1f;
   transition: 0.2s;
 }
 
-/* NAME */
 .name {
   font-weight: 500;
 }
 
-/* SCORE */
 .score {
   font-weight: bold;
 }
 
-/* STATUS */
 .status {
   padding: 5px 10px;
   border-radius: 20px;
@@ -153,7 +146,6 @@ td {
   color: #ff4d6d;
 }
 
-/* UPDATE */
 .update input {
   padding: 8px;
   border-radius: 6px;
