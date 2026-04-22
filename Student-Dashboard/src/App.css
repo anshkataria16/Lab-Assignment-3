@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(black);
+  color: #eaeaea;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 30px 0;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h1 span {
+  color: #00c6ff;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+  outline: none;
+  width: 150px;
+}
+
+.form input:focus {
+  box-shadow: 0 0 5px #00c6ff;
+}
+
+.form button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #00c6ff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  transform: scale(1.05);
+}
+
+/* STATS */
+.stats-container {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+}
+
+.stat-box {
+  flex: 1;
+  background: #141414;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+.stat-box p {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.stat-box h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #00c6ff;
+}
+
+/* TABLE */
+.table-container {
+  width: 80%;
+  margin: 30px auto;
+  background: #141414;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: #aaa;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+td {
+  padding: 15px 12px;
+  border-top: 1px solid #222;
+}
+
+/* ROW */
+.row:hover {
+  background: #1f1f1f;
+  transition: 0.2s;
+}
+
+/* NAME */
+.name {
+  font-weight: 500;
+}
+
+/* SCORE */
+.score {
+  font-weight: bold;
+}
+
+/* STATUS */
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+.pass {
+  background: rgba(0,255,150,0.15);
+  color: #00ffae;
+}
+
+.fail {
+  background: rgba(255,0,80,0.15);
+  color: #ff4d6d;
+}
+
+/* UPDATE */
+.update input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+  width: 60px;
+}
+
+.update button {
+  margin-left: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #00c6ff;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.update button:hover {
+  transform: scale(1.05);
+}
